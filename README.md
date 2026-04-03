@@ -1,4 +1,4 @@
-# Desmos Text I/O Browser Extension
+# Desmos Text Input/Output Tool
 
 A browser extension for importing and exporting Desmos graphs as JSON text.
 
