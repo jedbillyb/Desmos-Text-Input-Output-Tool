@@ -21,7 +21,7 @@
    },
    "manifest_version": 3,
    "name": "Desmos Text I/O",
-   "version": "1.2.0",
+   "version": "1.0.0",
    "web_accessible_resources": [ {
       "matches": [ "https://*/*" ],
       "resources": [ "injected.js" ]
