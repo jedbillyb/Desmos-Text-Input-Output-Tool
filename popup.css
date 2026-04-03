@@ -1,45 +1,46 @@
 body {
     min-width: 400px;
+    padding: 0 10px;
+    font-family: "Helvetica Neue", sans-serif;
 }
 h1 {
-    font-size: 24px;
-    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
     font-weight: bold;
     color: #333;
     letter-spacing: 1px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 12px 0;
+}
+.btn-row {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
 }
 button {
-    width: 100%;
+    flex: 1;
     padding: 8px;
     font-size: 14px;
     color: #fff;
-    background-color: #00CC33;
+    background-color: #00aa44;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-bottom: 8px;
     transition: background-color 0.3s;
 }
 button:hover {
-    background-color: #00BB22;
+    background-color: #009938;
 }
 button:active {
-    background-color: #009911;
+    background-color: #007a2c;
 }
 button:disabled {
-    background-color: #CCCCCC;
+    background-color: #ccc;
 }
 #credit {
     text-align: center;
     font-size: 11px;
     color: #aaa;
-    margin: 0;
-    padding-bottom: 6px;
-    font-family: "Helvetica Neue", sans-serif;
+    margin: 8px 0 6px 0;
 }
 #credit a {
     color: #aaa;
