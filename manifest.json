@@ -25,7 +25,7 @@
    "manifest_version": 3,
    "name": "Desmos Text Input/Output Tool",
    "permissions": ["tabs"],
-   "version": "1.2.0",
+   "version": "1.2.1",
    "web_accessible_resources": [ {
     "matches": [ "https://www.desmos.com/*" ],
     "resources": [ "injected.js" ]
